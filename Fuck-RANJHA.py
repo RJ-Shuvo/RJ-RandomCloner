@@ -1,3 +1,29 @@
+import os
+import time
+#Must Access this to continue.
+def main():
+    while True:
+        Username = input ("Username: ")
+        Password = input ("Password: ")
+
+        if Username == 'RJ' and Password == 'Hacked':
+            time.sleep(1)
+            print ("Login Successful!")
+            logged()
+
+        else:
+            print ("Wrong Password!")
+
+def logged():
+    time.sleep(1)
+    print ("Welcome to my tool")
+
+main()
+
+
+
+
+
 #----------------------------------------
 # Compile : Alvino
 # Facebook : legend.alvino
